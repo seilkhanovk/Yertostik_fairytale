@@ -1,0 +1,714 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		292903340005D2B1E7A22444 /* Pods_Ertegi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58EF905F41173734CF084DA6 /* Pods_Ertegi.framework */; };
+		6A36B76F1F443B48006D1ABA /* AudioBookCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A36B76E1F443B48006D1ABA /* AudioBookCell.swift */; };
+		6A36B7771F45883F006D1ABA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A36B7761F45883F006D1ABA /* Main.storyboard */; };
+		6A3EC51F1F4052F1009F7DBE /* yerTostik.epub in Resources */ = {isa = PBXBuildFile; fileRef = 6A3EC51E1F4052F1009F7DBE /* yerTostik.epub */; };
+		6A3EC5271F405FB0009F7DBE /* aldarkose.epub in Resources */ = {isa = PBXBuildFile; fileRef = 6A3EC5261F405FB0009F7DBE /* aldarkose.epub */; };
+		6A3EC5291F4066B2009F7DBE /* aldarkose12.epub in Resources */ = {isa = PBXBuildFile; fileRef = 6A3EC5281F4066B2009F7DBE /* aldarkose12.epub */; };
+		6A3FE4AA1F4ED4990099C6F5 /* Алдардың бір байды алдауы.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6A3FE4A21F4ED4990099C6F5 /* Алдардың бір байды алдауы.mp3 */; };
+		6A3FE4AB1F4ED4990099C6F5 /* Аш қасқырдың арманы.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6A3FE4A31F4ED4990099C6F5 /* Аш қасқырдың арманы.mp3 */; };
+		6A3FE4AC1F4ED4990099C6F5 /* Еріншек.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6A3FE4A41F4ED4990099C6F5 /* Еріншек.mp3 */; };
+		6A3FE4AD1F4ED4990099C6F5 /* Қазығұрт тауы.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6A3FE4A51F4ED4990099C6F5 /* Қазығұрт тауы.mp3 */; };
+		6A3FE4AE1F4ED4990099C6F5 /* Қорқыт туралы аңыз ертегілер.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6A3FE4A61F4ED4990099C6F5 /* Қорқыт туралы аңыз ертегілер.mp3 */; };
+		6A3FE4AF1F4ED4990099C6F5 /* Мақта қыз бен мысық.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6A3FE4A71F4ED4990099C6F5 /* Мақта қыз бен мысық.mp3 */; };
+		6A3FE4B01F4ED4990099C6F5 /* Түйе іздеген адам.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6A3FE4A81F4ED4990099C6F5 /* Түйе іздеген адам.mp3 */; };
+		6A3FE4B11F4ED4990099C6F5 /* Үш ұры.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6A3FE4A91F4ED4990099C6F5 /* Үш ұры.mp3 */; };
+		6A6826B11F2F2AB5006FEBE7 /* Proxima Nova Black Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6A6826A31F2F2AB5006FEBE7 /* Proxima Nova Black Italic.otf */; };
+		6A6826B21F2F2AB5006FEBE7 /* Proxima Nova Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6A6826A41F2F2AB5006FEBE7 /* Proxima Nova Black.otf */; };
+		6A6826B31F2F2AB5006FEBE7 /* Proxima Nova Bold Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6A6826A51F2F2AB5006FEBE7 /* Proxima Nova Bold Italic.otf */; };
+		6A6826B41F2F2AB5006FEBE7 /* Proxima Nova Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6A6826A61F2F2AB5006FEBE7 /* Proxima Nova Bold.otf */; };
+		6A6826B51F2F2AB5006FEBE7 /* Proxima Nova Extrabold Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6A6826A71F2F2AB5006FEBE7 /* Proxima Nova Extrabold Italic.otf */; };
+		6A6826B61F2F2AB5006FEBE7 /* Proxima Nova Extrabold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6A6826A81F2F2AB5006FEBE7 /* Proxima Nova Extrabold.otf */; };
+		6A6826B71F2F2AB5006FEBE7 /* Proxima Nova Light Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6A6826A91F2F2AB5006FEBE7 /* Proxima Nova Light Italic.otf */; };
+		6A6826B81F2F2AB5006FEBE7 /* Proxima Nova Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6A6826AA1F2F2AB5006FEBE7 /* Proxima Nova Light.otf */; };
+		6A6826B91F2F2AB5006FEBE7 /* Proxima Nova Regular Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6A6826AB1F2F2AB5006FEBE7 /* Proxima Nova Regular Italic.otf */; };
+		6A6826BA1F2F2AB5006FEBE7 /* Proxima Nova Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6A6826AC1F2F2AB5006FEBE7 /* Proxima Nova Regular.otf */; };
+		6A6826BB1F2F2AB5006FEBE7 /* Proxima Nova Semibold Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6A6826AD1F2F2AB5006FEBE7 /* Proxima Nova Semibold Italic.otf */; };
+		6A6826BC1F2F2AB5006FEBE7 /* Proxima Nova Semibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6A6826AE1F2F2AB5006FEBE7 /* Proxima Nova Semibold.otf */; };
+		6A6826BD1F2F2AB5006FEBE7 /* Proxima Nova Thin Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6A6826AF1F2F2AB5006FEBE7 /* Proxima Nova Thin Italic.otf */; };
+		6A6826BE1F2F2AB5006FEBE7 /* Proxima Nova Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6A6826B01F2F2AB5006FEBE7 /* Proxima Nova Thin.otf */; };
+		6A6826CA1F2F2D21006FEBE7 /* OpenSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6A6826C01F2F2D21006FEBE7 /* OpenSans-Bold.ttf */; };
+		6A6826CB1F2F2D21006FEBE7 /* OpenSans-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6A6826C11F2F2D21006FEBE7 /* OpenSans-BoldItalic.ttf */; };
+		6A6826CC1F2F2D21006FEBE7 /* OpenSans-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6A6826C21F2F2D21006FEBE7 /* OpenSans-ExtraBold.ttf */; };
+		6A6826CD1F2F2D21006FEBE7 /* OpenSans-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6A6826C31F2F2D21006FEBE7 /* OpenSans-ExtraBoldItalic.ttf */; };
+		6A6826CE1F2F2D21006FEBE7 /* OpenSans-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6A6826C41F2F2D21006FEBE7 /* OpenSans-Italic.ttf */; };
+		6A6826CF1F2F2D21006FEBE7 /* OpenSans-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6A6826C51F2F2D21006FEBE7 /* OpenSans-Light.ttf */; };
+		6A6826D01F2F2D21006FEBE7 /* OpenSans-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6A6826C61F2F2D21006FEBE7 /* OpenSans-LightItalic.ttf */; };
+		6A6826D11F2F2D21006FEBE7 /* OpenSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6A6826C71F2F2D21006FEBE7 /* OpenSans-Regular.ttf */; };
+		6A6826D21F2F2D21006FEBE7 /* OpenSans-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6A6826C81F2F2D21006FEBE7 /* OpenSans-SemiBold.ttf */; };
+		6A6826D31F2F2D21006FEBE7 /* OpenSans-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6A6826C91F2F2D21006FEBE7 /* OpenSans-SemiBoldItalic.ttf */; };
+		6A9B076F1F31C79C00647E3D /* Module.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A9B076E1F31C79C00647E3D /* Module.swift */; };
+		6A9B07711F321D5000647E3D /* kim.epub in Resources */ = {isa = PBXBuildFile; fileRef = 6A9B07701F321D5000647E3D /* kim.epub */; };
+		6A9B07731F321EFF00647E3D /* kogerwyn.epub in Resources */ = {isa = PBXBuildFile; fileRef = 6A9B07721F321EFF00647E3D /* kogerwyn.epub */; };
+		6A9B07751F321FB500647E3D /* torgai i adam.epub in Resources */ = {isa = PBXBuildFile; fileRef = 6A9B07741F321FB500647E3D /* torgai i adam.epub */; };
+		6A9B07771F32205400647E3D /* eki kaz bir baka.epub in Resources */ = {isa = PBXBuildFile; fileRef = 6A9B07761F32205400647E3D /* eki kaz bir baka.epub */; };
+		6A9B07791F32224400647E3D /* bogelek.epub in Resources */ = {isa = PBXBuildFile; fileRef = 6A9B07781F32224400647E3D /* bogelek.epub */; };
+		6AA34F3A1F18DD3C00E66102 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AA34F391F18DD3C00E66102 /* AppDelegate.swift */; };
+		6AA34F411F18DD3C00E66102 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6AA34F401F18DD3C00E66102 /* Assets.xcassets */; };
+		6AA34F441F18DD3C00E66102 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6AA34F421F18DD3C00E66102 /* LaunchScreen.storyboard */; };
+		6AADDDD81F32254C007A1A2F /* tulkinin aldagany.epub in Resources */ = {isa = PBXBuildFile; fileRef = 6AADDDD71F32254C007A1A2F /* tulkinin aldagany.epub */; };
+		6AADDDDA1F32260C007A1A2F /* arystan patwa.epub in Resources */ = {isa = PBXBuildFile; fileRef = 6AADDDD91F32260C007A1A2F /* arystan patwa.epub */; };
+		6AADDDDC1F3227BD007A1A2F /* arystan men tywkan.epub in Resources */ = {isa = PBXBuildFile; fileRef = 6AADDDDB1F3227BD007A1A2F /* arystan men tywkan.epub */; };
+		6AADDDDE1F322A35007A1A2F /* alty.epub in Resources */ = {isa = PBXBuildFile; fileRef = 6AADDDDD1F322A35007A1A2F /* alty.epub */; };
+		6AADDDE01F322D95007A1A2F /* uw aiu.epub in Resources */ = {isa = PBXBuildFile; fileRef = 6AADDDDF1F322D95007A1A2F /* uw aiu.epub */; };
+		6AADDDE21F322DF2007A1A2F /* maimyl men wegirtke.epub in Resources */ = {isa = PBXBuildFile; fileRef = 6AADDDE11F322DF2007A1A2F /* maimyl men wegirtke.epub */; };
+		6AADDDE41F32324B007A1A2F /* ailaker koyan.epub in Resources */ = {isa = PBXBuildFile; fileRef = 6AADDDE31F32324B007A1A2F /* ailaker koyan.epub */; };
+		6AB782931F55D32600A1D938 /* ModelOfAudio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AB782921F55D32600A1D938 /* ModelOfAudio.swift */; };
+		6ACCF8BB1F46EF8800B34212 /* AudioPlayerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ACCF8BA1F46EF8800B34212 /* AudioPlayerVC.swift */; };
+		6ACCF8C11F4AAD4200B34212 /* DesignableSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ACCF8C01F4AAD4200B34212 /* DesignableSlider.swift */; };
+		6ACCF8C31F4AC44800B34212 /* DesignableVolumeSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ACCF8C21F4AC44800B34212 /* DesignableVolumeSlider.swift */; };
+		6AD156841F3989270045F836 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6AD156831F3989270045F836 /* GoogleService-Info.plist */; };
+		6AD464E51F1E28DB00C497D9 /* ThirdVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AD464E41F1E28DB00C497D9 /* ThirdVC.swift */; };
+		6AD83C061F2A0F440024E806 /* Tazsha Bala.epub in Resources */ = {isa = PBXBuildFile; fileRef = 6AD83C051F2A0F440024E806 /* Tazsha Bala.epub */; };
+		6AD83C081F2A0FE60024E806 /* Makta.epub in Resources */ = {isa = PBXBuildFile; fileRef = 6AD83C071F2A0FE60024E806 /* Makta.epub */; };
+		6AD83C0A1F2A10F80024E806 /* Kart.epub in Resources */ = {isa = PBXBuildFile; fileRef = 6AD83C091F2A10F80024E806 /* Kart.epub */; };
+		6AD83C0C1F2A12740024E806 /* Koyan.epub in Resources */ = {isa = PBXBuildFile; fileRef = 6AD83C0B1F2A12740024E806 /* Koyan.epub */; };
+		6AD83C0E1F2A139F0024E806 /* aiyr.epub in Resources */ = {isa = PBXBuildFile; fileRef = 6AD83C0D1F2A139F0024E806 /* aiyr.epub */; };
+		6AD83C121F2A18110024E806 /* Gnom.epub in Resources */ = {isa = PBXBuildFile; fileRef = 6AD83C111F2A18110024E806 /* Gnom.epub */; };
+		6AFD32271F418B9F00DD4569 /* Cellid1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AFD32261F418B9F00DD4569 /* Cellid1.swift */; };
+		6AFD322B1F41C3DB00DD4569 /* ViewControllerOfSegmenttedController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AFD322A1F41C3DB00DD4569 /* ViewControllerOfSegmenttedController.swift */; };
+		6AFD322D1F41C83200DD4569 /* AudioVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AFD322C1F41C83200DD4569 /* AudioVC.swift */; };
+		6AFE2E991F270EA500FEEE38 /* ListOfBooks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AFE2E981F270EA500FEEE38 /* ListOfBooks.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		56DCE87032D84FC1121194FA /* Pods-Ertegi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ertegi.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Ertegi/Pods-Ertegi.debug.xcconfig"; sourceTree = "<group>"; };
+		58EF905F41173734CF084DA6 /* Pods_Ertegi.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Ertegi.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A36B76E1F443B48006D1ABA /* AudioBookCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AudioBookCell.swift; sourceTree = "<group>"; };
+		6A36B7761F45883F006D1ABA /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		6A3EC51E1F4052F1009F7DBE /* yerTostik.epub */ = {isa = PBXFileReference; lastKnownFileType = file; path = yerTostik.epub; sourceTree = "<group>"; };
+		6A3EC5261F405FB0009F7DBE /* aldarkose.epub */ = {isa = PBXFileReference; lastKnownFileType = file; path = aldarkose.epub; sourceTree = "<group>"; };
+		6A3EC5281F4066B2009F7DBE /* aldarkose12.epub */ = {isa = PBXFileReference; lastKnownFileType = file; path = aldarkose12.epub; sourceTree = "<group>"; };
+		6A3FE4A21F4ED4990099C6F5 /* Алдардың бір байды алдауы.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Алдардың бір байды алдауы.mp3"; sourceTree = "<group>"; };
+		6A3FE4A31F4ED4990099C6F5 /* Аш қасқырдың арманы.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Аш қасқырдың арманы.mp3"; sourceTree = "<group>"; };
+		6A3FE4A41F4ED4990099C6F5 /* Еріншек.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Еріншек.mp3"; sourceTree = "<group>"; };
+		6A3FE4A51F4ED4990099C6F5 /* Қазығұрт тауы.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Қазығұрт тауы.mp3"; sourceTree = "<group>"; };
+		6A3FE4A61F4ED4990099C6F5 /* Қорқыт туралы аңыз ертегілер.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Қорқыт туралы аңыз ертегілер.mp3"; sourceTree = "<group>"; };
+		6A3FE4A71F4ED4990099C6F5 /* Мақта қыз бен мысық.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Мақта қыз бен мысық.mp3"; sourceTree = "<group>"; };
+		6A3FE4A81F4ED4990099C6F5 /* Түйе іздеген адам.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Түйе іздеген адам.mp3"; sourceTree = "<group>"; };
+		6A3FE4A91F4ED4990099C6F5 /* Үш ұры.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Үш ұры.mp3"; sourceTree = "<group>"; };
+		6A6826A31F2F2AB5006FEBE7 /* Proxima Nova Black Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Proxima Nova Black Italic.otf"; sourceTree = "<group>"; };
+		6A6826A41F2F2AB5006FEBE7 /* Proxima Nova Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Proxima Nova Black.otf"; sourceTree = "<group>"; };
+		6A6826A51F2F2AB5006FEBE7 /* Proxima Nova Bold Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Proxima Nova Bold Italic.otf"; sourceTree = "<group>"; };
+		6A6826A61F2F2AB5006FEBE7 /* Proxima Nova Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Proxima Nova Bold.otf"; sourceTree = "<group>"; };
+		6A6826A71F2F2AB5006FEBE7 /* Proxima Nova Extrabold Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Proxima Nova Extrabold Italic.otf"; sourceTree = "<group>"; };
+		6A6826A81F2F2AB5006FEBE7 /* Proxima Nova Extrabold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Proxima Nova Extrabold.otf"; sourceTree = "<group>"; };
+		6A6826A91F2F2AB5006FEBE7 /* Proxima Nova Light Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Proxima Nova Light Italic.otf"; sourceTree = "<group>"; };
+		6A6826AA1F2F2AB5006FEBE7 /* Proxima Nova Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Proxima Nova Light.otf"; sourceTree = "<group>"; };
+		6A6826AB1F2F2AB5006FEBE7 /* Proxima Nova Regular Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Proxima Nova Regular Italic.otf"; sourceTree = "<group>"; };
+		6A6826AC1F2F2AB5006FEBE7 /* Proxima Nova Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Proxima Nova Regular.otf"; sourceTree = "<group>"; };
+		6A6826AD1F2F2AB5006FEBE7 /* Proxima Nova Semibold Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Proxima Nova Semibold Italic.otf"; sourceTree = "<group>"; };
+		6A6826AE1F2F2AB5006FEBE7 /* Proxima Nova Semibold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Proxima Nova Semibold.otf"; sourceTree = "<group>"; };
+		6A6826AF1F2F2AB5006FEBE7 /* Proxima Nova Thin Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Proxima Nova Thin Italic.otf"; sourceTree = "<group>"; };
+		6A6826B01F2F2AB5006FEBE7 /* Proxima Nova Thin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Proxima Nova Thin.otf"; sourceTree = "<group>"; };
+		6A6826C01F2F2D21006FEBE7 /* OpenSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Bold.ttf"; sourceTree = "<group>"; };
+		6A6826C11F2F2D21006FEBE7 /* OpenSans-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-BoldItalic.ttf"; sourceTree = "<group>"; };
+		6A6826C21F2F2D21006FEBE7 /* OpenSans-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-ExtraBold.ttf"; sourceTree = "<group>"; };
+		6A6826C31F2F2D21006FEBE7 /* OpenSans-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		6A6826C41F2F2D21006FEBE7 /* OpenSans-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Italic.ttf"; sourceTree = "<group>"; };
+		6A6826C51F2F2D21006FEBE7 /* OpenSans-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Light.ttf"; sourceTree = "<group>"; };
+		6A6826C61F2F2D21006FEBE7 /* OpenSans-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-LightItalic.ttf"; sourceTree = "<group>"; };
+		6A6826C71F2F2D21006FEBE7 /* OpenSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Regular.ttf"; sourceTree = "<group>"; };
+		6A6826C81F2F2D21006FEBE7 /* OpenSans-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-SemiBold.ttf"; sourceTree = "<group>"; };
+		6A6826C91F2F2D21006FEBE7 /* OpenSans-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		6A9B076E1F31C79C00647E3D /* Module.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Module.swift; sourceTree = "<group>"; };
+		6A9B07701F321D5000647E3D /* kim.epub */ = {isa = PBXFileReference; lastKnownFileType = file; path = kim.epub; sourceTree = "<group>"; };
+		6A9B07721F321EFF00647E3D /* kogerwyn.epub */ = {isa = PBXFileReference; lastKnownFileType = file; path = kogerwyn.epub; sourceTree = "<group>"; };
+		6A9B07741F321FB500647E3D /* torgai i adam.epub */ = {isa = PBXFileReference; lastKnownFileType = file; path = "torgai i adam.epub"; sourceTree = "<group>"; };
+		6A9B07761F32205400647E3D /* eki kaz bir baka.epub */ = {isa = PBXFileReference; lastKnownFileType = file; path = "eki kaz bir baka.epub"; sourceTree = "<group>"; };
+		6A9B07781F32224400647E3D /* bogelek.epub */ = {isa = PBXFileReference; lastKnownFileType = file; path = bogelek.epub; sourceTree = "<group>"; };
+		6AA34F361F18DD3C00E66102 /* Ertegi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ertegi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6AA34F391F18DD3C00E66102 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6AA34F401F18DD3C00E66102 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6AA34F431F18DD3C00E66102 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6AA34F451F18DD3C00E66102 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6AADDDD71F32254C007A1A2F /* tulkinin aldagany.epub */ = {isa = PBXFileReference; lastKnownFileType = file; path = "tulkinin aldagany.epub"; sourceTree = "<group>"; };
+		6AADDDD91F32260C007A1A2F /* arystan patwa.epub */ = {isa = PBXFileReference; lastKnownFileType = file; path = "arystan patwa.epub"; sourceTree = "<group>"; };
+		6AADDDDB1F3227BD007A1A2F /* arystan men tywkan.epub */ = {isa = PBXFileReference; lastKnownFileType = file; path = "arystan men tywkan.epub"; sourceTree = "<group>"; };
+		6AADDDDD1F322A35007A1A2F /* alty.epub */ = {isa = PBXFileReference; lastKnownFileType = file; path = alty.epub; sourceTree = "<group>"; };
+		6AADDDDF1F322D95007A1A2F /* uw aiu.epub */ = {isa = PBXFileReference; lastKnownFileType = file; path = "uw aiu.epub"; sourceTree = "<group>"; };
+		6AADDDE11F322DF2007A1A2F /* maimyl men wegirtke.epub */ = {isa = PBXFileReference; lastKnownFileType = file; path = "maimyl men wegirtke.epub"; sourceTree = "<group>"; };
+		6AADDDE31F32324B007A1A2F /* ailaker koyan.epub */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ailaker koyan.epub"; sourceTree = "<group>"; };
+		6AB782921F55D32600A1D938 /* ModelOfAudio.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModelOfAudio.swift; sourceTree = "<group>"; };
+		6ACCF8BA1F46EF8800B34212 /* AudioPlayerVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AudioPlayerVC.swift; sourceTree = "<group>"; };
+		6ACCF8C01F4AAD4200B34212 /* DesignableSlider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignableSlider.swift; sourceTree = "<group>"; };
+		6ACCF8C21F4AC44800B34212 /* DesignableVolumeSlider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignableVolumeSlider.swift; sourceTree = "<group>"; };
+		6AD156831F3989270045F836 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		6AD464E41F1E28DB00C497D9 /* ThirdVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdVC.swift; sourceTree = "<group>"; };
+		6AD83C051F2A0F440024E806 /* Tazsha Bala.epub */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Tazsha Bala.epub"; sourceTree = "<group>"; };
+		6AD83C071F2A0FE60024E806 /* Makta.epub */ = {isa = PBXFileReference; lastKnownFileType = file; path = Makta.epub; sourceTree = "<group>"; };
+		6AD83C091F2A10F80024E806 /* Kart.epub */ = {isa = PBXFileReference; lastKnownFileType = file; path = Kart.epub; sourceTree = "<group>"; };
+		6AD83C0B1F2A12740024E806 /* Koyan.epub */ = {isa = PBXFileReference; lastKnownFileType = file; path = Koyan.epub; sourceTree = "<group>"; };
+		6AD83C0D1F2A139F0024E806 /* aiyr.epub */ = {isa = PBXFileReference; lastKnownFileType = file; path = aiyr.epub; sourceTree = "<group>"; };
+		6AD83C111F2A18110024E806 /* Gnom.epub */ = {isa = PBXFileReference; lastKnownFileType = file; path = Gnom.epub; sourceTree = "<group>"; };
+		6AFD32261F418B9F00DD4569 /* Cellid1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Cellid1.swift; path = ../Cellid1.swift; sourceTree = "<group>"; };
+		6AFD322A1F41C3DB00DD4569 /* ViewControllerOfSegmenttedController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerOfSegmenttedController.swift; sourceTree = "<group>"; };
+		6AFD322C1F41C83200DD4569 /* AudioVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AudioVC.swift; sourceTree = "<group>"; };
+		6AFE2E981F270EA500FEEE38 /* ListOfBooks.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListOfBooks.swift; sourceTree = "<group>"; };
+		DEB715656412A8AE937D4CE2 /* Pods-Ertegi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ertegi.release.xcconfig"; path = "Pods/Target Support Files/Pods-Ertegi/Pods-Ertegi.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6AA34F331F18DD3C00E66102 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				292903340005D2B1E7A22444 /* Pods_Ertegi.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6A36B7651F421CA6006D1ABA /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				6AD464E41F1E28DB00C497D9 /* ThirdVC.swift */,
+			);
+			name = Settings;
+			sourceTree = "<group>";
+		};
+		6A36B76C1F443AF3006D1ABA /* Shell of Books */ = {
+			isa = PBXGroup;
+			children = (
+				6AFE2E981F270EA500FEEE38 /* ListOfBooks.swift */,
+				6AFD32261F418B9F00DD4569 /* Cellid1.swift */,
+			);
+			name = "Shell of Books";
+			sourceTree = "<group>";
+		};
+		6A36B76D1F443B1C006D1ABA /* Shell of Audio Books */ = {
+			isa = PBXGroup;
+			children = (
+				6ACCF8BA1F46EF8800B34212 /* AudioPlayerVC.swift */,
+				6AFD322C1F41C83200DD4569 /* AudioVC.swift */,
+				6AB782921F55D32600A1D938 /* ModelOfAudio.swift */,
+				6ACCF8C01F4AAD4200B34212 /* DesignableSlider.swift */,
+				6ACCF8C21F4AC44800B34212 /* DesignableVolumeSlider.swift */,
+				6A36B76E1F443B48006D1ABA /* AudioBookCell.swift */,
+			);
+			name = "Shell of Audio Books";
+			sourceTree = "<group>";
+		};
+		6A3FE4A11F4ED0860099C6F5 /* audio */ = {
+			isa = PBXGroup;
+			children = (
+				6A3FE4A21F4ED4990099C6F5 /* Алдардың бір байды алдауы.mp3 */,
+				6A3FE4A31F4ED4990099C6F5 /* Аш қасқырдың арманы.mp3 */,
+				6A3FE4A41F4ED4990099C6F5 /* Еріншек.mp3 */,
+				6A3FE4A51F4ED4990099C6F5 /* Қазығұрт тауы.mp3 */,
+				6A3FE4A61F4ED4990099C6F5 /* Қорқыт туралы аңыз ертегілер.mp3 */,
+				6A3FE4A71F4ED4990099C6F5 /* Мақта қыз бен мысық.mp3 */,
+				6A3FE4A81F4ED4990099C6F5 /* Түйе іздеген адам.mp3 */,
+				6A3FE4A91F4ED4990099C6F5 /* Үш ұры.mp3 */,
+			);
+			name = audio;
+			sourceTree = "<group>";
+		};
+		6A6826BF1F2F2AD6006FEBE7 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				6A6826C01F2F2D21006FEBE7 /* OpenSans-Bold.ttf */,
+				6A6826C11F2F2D21006FEBE7 /* OpenSans-BoldItalic.ttf */,
+				6A6826C21F2F2D21006FEBE7 /* OpenSans-ExtraBold.ttf */,
+				6A6826C31F2F2D21006FEBE7 /* OpenSans-ExtraBoldItalic.ttf */,
+				6A6826C41F2F2D21006FEBE7 /* OpenSans-Italic.ttf */,
+				6A6826C51F2F2D21006FEBE7 /* OpenSans-Light.ttf */,
+				6A6826C61F2F2D21006FEBE7 /* OpenSans-LightItalic.ttf */,
+				6A6826C71F2F2D21006FEBE7 /* OpenSans-Regular.ttf */,
+				6A6826C81F2F2D21006FEBE7 /* OpenSans-SemiBold.ttf */,
+				6A6826C91F2F2D21006FEBE7 /* OpenSans-SemiBoldItalic.ttf */,
+				6A6826AB1F2F2AB5006FEBE7 /* Proxima Nova Regular Italic.otf */,
+				6A6826AC1F2F2AB5006FEBE7 /* Proxima Nova Regular.otf */,
+				6A6826AD1F2F2AB5006FEBE7 /* Proxima Nova Semibold Italic.otf */,
+				6A6826AE1F2F2AB5006FEBE7 /* Proxima Nova Semibold.otf */,
+				6A6826AF1F2F2AB5006FEBE7 /* Proxima Nova Thin Italic.otf */,
+				6A6826B01F2F2AB5006FEBE7 /* Proxima Nova Thin.otf */,
+				6A6826A31F2F2AB5006FEBE7 /* Proxima Nova Black Italic.otf */,
+				6A6826A41F2F2AB5006FEBE7 /* Proxima Nova Black.otf */,
+				6A6826A51F2F2AB5006FEBE7 /* Proxima Nova Bold Italic.otf */,
+				6A6826A61F2F2AB5006FEBE7 /* Proxima Nova Bold.otf */,
+				6A6826A71F2F2AB5006FEBE7 /* Proxima Nova Extrabold Italic.otf */,
+				6A6826A81F2F2AB5006FEBE7 /* Proxima Nova Extrabold.otf */,
+				6A6826A91F2F2AB5006FEBE7 /* Proxima Nova Light Italic.otf */,
+				6A6826AA1F2F2AB5006FEBE7 /* Proxima Nova Light.otf */,
+			);
+			name = Fonts;
+			sourceTree = "<group>";
+		};
+		6AA34F2D1F18DD3B00E66102 = {
+			isa = PBXGroup;
+			children = (
+				6AA34F381F18DD3C00E66102 /* Ertegi */,
+				6AA34F371F18DD3C00E66102 /* Products */,
+				8CDD6106C114608A1B019798 /* Pods */,
+				6C4D261FC631F01F47BC843C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6AA34F371F18DD3C00E66102 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6AA34F361F18DD3C00E66102 /* Ertegi.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6AA34F381F18DD3C00E66102 /* Ertegi */ = {
+			isa = PBXGroup;
+			children = (
+				6A3FE4A11F4ED0860099C6F5 /* audio */,
+				6AFE2E9E1F27311B00FEEE38 /* Books */,
+				6AD464D51F1DE04500C497D9 /* ViewControllers */,
+				6AFE2E2E1F21CB5700FEEE38 /* Supporting Files */,
+			);
+			path = Ertegi;
+			sourceTree = "<group>";
+		};
+		6AD464D51F1DE04500C497D9 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				6A36B7761F45883F006D1ABA /* Main.storyboard */,
+				6A36B76C1F443AF3006D1ABA /* Shell of Books */,
+				6A36B7651F421CA6006D1ABA /* Settings */,
+				6A36B76D1F443B1C006D1ABA /* Shell of Audio Books */,
+				6A9B076E1F31C79C00647E3D /* Module.swift */,
+				6AFD322A1F41C3DB00DD4569 /* ViewControllerOfSegmenttedController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		6AFE2E2E1F21CB5700FEEE38 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6AA34F391F18DD3C00E66102 /* AppDelegate.swift */,
+				6AA34F401F18DD3C00E66102 /* Assets.xcassets */,
+				6A6826BF1F2F2AD6006FEBE7 /* Fonts */,
+				6AA34F421F18DD3C00E66102 /* LaunchScreen.storyboard */,
+				6AA34F451F18DD3C00E66102 /* Info.plist */,
+				6AD156831F3989270045F836 /* GoogleService-Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6AFE2E9E1F27311B00FEEE38 /* Books */ = {
+			isa = PBXGroup;
+			children = (
+				6AD83C051F2A0F440024E806 /* Tazsha Bala.epub */,
+				6AD83C071F2A0FE60024E806 /* Makta.epub */,
+				6AD83C091F2A10F80024E806 /* Kart.epub */,
+				6AD83C0B1F2A12740024E806 /* Koyan.epub */,
+				6AD83C0D1F2A139F0024E806 /* aiyr.epub */,
+				6AD83C111F2A18110024E806 /* Gnom.epub */,
+				6A9B07701F321D5000647E3D /* kim.epub */,
+				6A9B07721F321EFF00647E3D /* kogerwyn.epub */,
+				6A9B07741F321FB500647E3D /* torgai i adam.epub */,
+				6A9B07761F32205400647E3D /* eki kaz bir baka.epub */,
+				6A9B07781F32224400647E3D /* bogelek.epub */,
+				6AADDDD71F32254C007A1A2F /* tulkinin aldagany.epub */,
+				6AADDDD91F32260C007A1A2F /* arystan patwa.epub */,
+				6AADDDDB1F3227BD007A1A2F /* arystan men tywkan.epub */,
+				6AADDDDD1F322A35007A1A2F /* alty.epub */,
+				6AADDDDF1F322D95007A1A2F /* uw aiu.epub */,
+				6AADDDE11F322DF2007A1A2F /* maimyl men wegirtke.epub */,
+				6AADDDE31F32324B007A1A2F /* ailaker koyan.epub */,
+				6A3EC51E1F4052F1009F7DBE /* yerTostik.epub */,
+				6A3EC5261F405FB0009F7DBE /* aldarkose.epub */,
+				6A3EC5281F4066B2009F7DBE /* aldarkose12.epub */,
+			);
+			name = Books;
+			sourceTree = "<group>";
+		};
+		6C4D261FC631F01F47BC843C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				58EF905F41173734CF084DA6 /* Pods_Ertegi.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8CDD6106C114608A1B019798 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				56DCE87032D84FC1121194FA /* Pods-Ertegi.debug.xcconfig */,
+				DEB715656412A8AE937D4CE2 /* Pods-Ertegi.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6AA34F351F18DD3C00E66102 /* Ertegi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6AA34F481F18DD3C00E66102 /* Build configuration list for PBXNativeTarget "Ertegi" */;
+			buildPhases = (
+				A3F97052204338C603D28AB8 /* [CP] Check Pods Manifest.lock */,
+				6AA34F321F18DD3C00E66102 /* Sources */,
+				6AA34F331F18DD3C00E66102 /* Frameworks */,
+				6AA34F341F18DD3C00E66102 /* Resources */,
+				9550C05E53E1B8E375860BC5 /* [CP] Embed Pods Frameworks */,
+				7936A31805D491EB4C408375 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Ertegi;
+			productName = Ertegi;
+			productReference = 6AA34F361F18DD3C00E66102 /* Ertegi.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6AA34F2E1F18DD3C00E66102 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = KuanyshTeam;
+				TargetAttributes = {
+					6AA34F351F18DD3C00E66102 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = AB65P3C5XF;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 6AA34F311F18DD3C00E66102 /* Build configuration list for PBXProject "Ertegi" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6AA34F2D1F18DD3B00E66102;
+			productRefGroup = 6AA34F371F18DD3C00E66102 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6AA34F351F18DD3C00E66102 /* Ertegi */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6AA34F341F18DD3C00E66102 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A3FE4AF1F4ED4990099C6F5 /* Мақта қыз бен мысық.mp3 in Resources */,
+				6AADDDE21F322DF2007A1A2F /* maimyl men wegirtke.epub in Resources */,
+				6A36B7771F45883F006D1ABA /* Main.storyboard in Resources */,
+				6A3FE4B01F4ED4990099C6F5 /* Түйе іздеген адам.mp3 in Resources */,
+				6AD83C0C1F2A12740024E806 /* Koyan.epub in Resources */,
+				6AADDDDE1F322A35007A1A2F /* alty.epub in Resources */,
+				6A6826BD1F2F2AB5006FEBE7 /* Proxima Nova Thin Italic.otf in Resources */,
+				6A6826B91F2F2AB5006FEBE7 /* Proxima Nova Regular Italic.otf in Resources */,
+				6A9B07751F321FB500647E3D /* torgai i adam.epub in Resources */,
+				6AADDDDC1F3227BD007A1A2F /* arystan men tywkan.epub in Resources */,
+				6A6826D31F2F2D21006FEBE7 /* OpenSans-SemiBoldItalic.ttf in Resources */,
+				6A6826CF1F2F2D21006FEBE7 /* OpenSans-Light.ttf in Resources */,
+				6A6826B31F2F2AB5006FEBE7 /* Proxima Nova Bold Italic.otf in Resources */,
+				6AD83C121F2A18110024E806 /* Gnom.epub in Resources */,
+				6A3EC5291F4066B2009F7DBE /* aldarkose12.epub in Resources */,
+				6A3FE4AA1F4ED4990099C6F5 /* Алдардың бір байды алдауы.mp3 in Resources */,
+				6A6826CD1F2F2D21006FEBE7 /* OpenSans-ExtraBoldItalic.ttf in Resources */,
+				6A6826D01F2F2D21006FEBE7 /* OpenSans-LightItalic.ttf in Resources */,
+				6A6826B61F2F2AB5006FEBE7 /* Proxima Nova Extrabold.otf in Resources */,
+				6AD83C0A1F2A10F80024E806 /* Kart.epub in Resources */,
+				6A6826B11F2F2AB5006FEBE7 /* Proxima Nova Black Italic.otf in Resources */,
+				6A3FE4AB1F4ED4990099C6F5 /* Аш қасқырдың арманы.mp3 in Resources */,
+				6A3FE4AE1F4ED4990099C6F5 /* Қорқыт туралы аңыз ертегілер.mp3 in Resources */,
+				6A3FE4AC1F4ED4990099C6F5 /* Еріншек.mp3 in Resources */,
+				6A6826CE1F2F2D21006FEBE7 /* OpenSans-Italic.ttf in Resources */,
+				6A6826B81F2F2AB5006FEBE7 /* Proxima Nova Light.otf in Resources */,
+				6AD83C081F2A0FE60024E806 /* Makta.epub in Resources */,
+				6AD156841F3989270045F836 /* GoogleService-Info.plist in Resources */,
+				6A3FE4AD1F4ED4990099C6F5 /* Қазығұрт тауы.mp3 in Resources */,
+				6A6826B41F2F2AB5006FEBE7 /* Proxima Nova Bold.otf in Resources */,
+				6AADDDE41F32324B007A1A2F /* ailaker koyan.epub in Resources */,
+				6A9B07731F321EFF00647E3D /* kogerwyn.epub in Resources */,
+				6AA34F441F18DD3C00E66102 /* LaunchScreen.storyboard in Resources */,
+				6A6826D21F2F2D21006FEBE7 /* OpenSans-SemiBold.ttf in Resources */,
+				6AD83C0E1F2A139F0024E806 /* aiyr.epub in Resources */,
+				6A3FE4B11F4ED4990099C6F5 /* Үш ұры.mp3 in Resources */,
+				6A6826B51F2F2AB5006FEBE7 /* Proxima Nova Extrabold Italic.otf in Resources */,
+				6AD83C061F2A0F440024E806 /* Tazsha Bala.epub in Resources */,
+				6A9B07771F32205400647E3D /* eki kaz bir baka.epub in Resources */,
+				6A6826CA1F2F2D21006FEBE7 /* OpenSans-Bold.ttf in Resources */,
+				6AADDDE01F322D95007A1A2F /* uw aiu.epub in Resources */,
+				6AA34F411F18DD3C00E66102 /* Assets.xcassets in Resources */,
+				6AADDDDA1F32260C007A1A2F /* arystan patwa.epub in Resources */,
+				6A6826B21F2F2AB5006FEBE7 /* Proxima Nova Black.otf in Resources */,
+				6A9B07791F32224400647E3D /* bogelek.epub in Resources */,
+				6AADDDD81F32254C007A1A2F /* tulkinin aldagany.epub in Resources */,
+				6A6826BA1F2F2AB5006FEBE7 /* Proxima Nova Regular.otf in Resources */,
+				6A3EC51F1F4052F1009F7DBE /* yerTostik.epub in Resources */,
+				6A6826CB1F2F2D21006FEBE7 /* OpenSans-BoldItalic.ttf in Resources */,
+				6A6826B71F2F2AB5006FEBE7 /* Proxima Nova Light Italic.otf in Resources */,
+				6A6826BB1F2F2AB5006FEBE7 /* Proxima Nova Semibold Italic.otf in Resources */,
+				6A6826CC1F2F2D21006FEBE7 /* OpenSans-ExtraBold.ttf in Resources */,
+				6A6826BC1F2F2AB5006FEBE7 /* Proxima Nova Semibold.otf in Resources */,
+				6A9B07711F321D5000647E3D /* kim.epub in Resources */,
+				6A6826D11F2F2D21006FEBE7 /* OpenSans-Regular.ttf in Resources */,
+				6A3EC5271F405FB0009F7DBE /* aldarkose.epub in Resources */,
+				6A6826BE1F2F2AB5006FEBE7 /* Proxima Nova Thin.otf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7936A31805D491EB4C408375 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Ertegi/Pods-Ertegi-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9550C05E53E1B8E375860BC5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Ertegi/Pods-Ertegi-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A3F97052204338C603D28AB8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6AA34F321F18DD3C00E66102 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6AFE2E991F270EA500FEEE38 /* ListOfBooks.swift in Sources */,
+				6AB782931F55D32600A1D938 /* ModelOfAudio.swift in Sources */,
+				6A9B076F1F31C79C00647E3D /* Module.swift in Sources */,
+				6AFD322B1F41C3DB00DD4569 /* ViewControllerOfSegmenttedController.swift in Sources */,
+				6AFD322D1F41C83200DD4569 /* AudioVC.swift in Sources */,
+				6ACCF8C31F4AC44800B34212 /* DesignableVolumeSlider.swift in Sources */,
+				6A36B76F1F443B48006D1ABA /* AudioBookCell.swift in Sources */,
+				6AA34F3A1F18DD3C00E66102 /* AppDelegate.swift in Sources */,
+				6ACCF8C11F4AAD4200B34212 /* DesignableSlider.swift in Sources */,
+				6AFD32271F418B9F00DD4569 /* Cellid1.swift in Sources */,
+				6ACCF8BB1F46EF8800B34212 /* AudioPlayerVC.swift in Sources */,
+				6AD464E51F1E28DB00C497D9 /* ThirdVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6AA34F421F18DD3C00E66102 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6AA34F431F18DD3C00E66102 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6AA34F461F18DD3C00E66102 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6AA34F471F18DD3C00E66102 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6AA34F491F18DD3C00E66102 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 56DCE87032D84FC1121194FA /* Pods-Ertegi.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = AB65P3C5XF;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = Ertegi/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.seilkhanov.Ertegi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		6AA34F4A1F18DD3C00E66102 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DEB715656412A8AE937D4CE2 /* Pods-Ertegi.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = AB65P3C5XF;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = Ertegi/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.seilkhanov.Ertegi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6AA34F311F18DD3C00E66102 /* Build configuration list for PBXProject "Ertegi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6AA34F461F18DD3C00E66102 /* Debug */,
+				6AA34F471F18DD3C00E66102 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6AA34F481F18DD3C00E66102 /* Build configuration list for PBXNativeTarget "Ertegi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6AA34F491F18DD3C00E66102 /* Debug */,
+				6AA34F4A1F18DD3C00E66102 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6AA34F2E1F18DD3C00E66102 /* Project object */;
+}

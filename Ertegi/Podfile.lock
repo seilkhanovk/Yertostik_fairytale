@@ -1,0 +1,93 @@
+PODS:
+  - AEXML (4.0.0)
+  - Firebase (4.0.4):
+    - Firebase/Core (= 4.0.4)
+  - Firebase/Core (4.0.4):
+    - FirebaseAnalytics (= 4.0.2)
+    - FirebaseCore (= 4.0.4)
+  - Firebase/Storage (4.0.4):
+    - Firebase/Core
+    - FirebaseStorage (= 2.0.0)
+  - FirebaseAnalytics (4.0.2):
+    - FirebaseCore (~> 4.0)
+    - FirebaseInstanceID (~> 2.0)
+    - GoogleToolboxForMac/NSData+zlib (~> 2.1)
+  - FirebaseCore (4.0.4):
+    - GoogleToolboxForMac/NSData+zlib (~> 2.1)
+    - nanopb (~> 0.3)
+  - FirebaseInstanceID (2.0.0):
+    - FirebaseCore (~> 4.0)
+  - FirebaseStorage (2.0.0):
+    - FirebaseAnalytics (~> 4.0)
+    - FirebaseCore (~> 4.0)
+    - GTMSessionFetcher/Core (~> 1.1)
+  - FirebaseUI/Storage (4.1.1):
+    - Firebase/Storage
+    - SDWebImage (~> 4.0)
+  - FolioReaderKit (1.2.0):
+    - AEXML (= 4.0)
+    - FontBlaster (= 3.0.0)
+    - JSQWebViewController (~> 5.0)
+    - MenuItemKit (= 2.0)
+    - RealmSwift (~> 2.7)
+    - SSZipArchive (~> 1.8)
+    - ZFDragableModalTransition (~> 0.6)
+  - FontBlaster (3.0.0)
+  - GoogleToolboxForMac/Defines (2.1.1)
+  - GoogleToolboxForMac/NSData+zlib (2.1.1):
+    - GoogleToolboxForMac/Defines (= 2.1.1)
+  - GTMSessionFetcher/Core (1.1.11)
+  - JSQWebViewController (5.0.0)
+  - MenuItemKit (2.0)
+  - nanopb (0.3.8):
+    - nanopb/decode (= 0.3.8)
+    - nanopb/encode (= 0.3.8)
+  - nanopb/decode (0.3.8)
+  - nanopb/encode (0.3.8)
+  - Realm (2.8.3):
+    - Realm/Headers (= 2.8.3)
+  - Realm/Headers (2.8.3)
+  - RealmSwift (2.8.3):
+    - Realm (= 2.8.3)
+  - SDWebImage (4.0.0):
+    - SDWebImage/Core (= 4.0.0)
+  - SDWebImage/Core (4.0.0)
+  - SJSegmentedScrollView (1.3.6)
+  - SSZipArchive (1.8.1)
+  - SVProgressHUD (2.1.2)
+  - ZFDragableModalTransition (0.6)
+
+DEPENDENCIES:
+  - Firebase
+  - Firebase/Core
+  - FirebaseUI/Storage
+  - FolioReaderKit
+  - SJSegmentedScrollView (= 1.3.6)
+  - SVProgressHUD
+
+SPEC CHECKSUMS:
+  AEXML: 6fc6433aa35bdc15dd8eb8d54eb7aa4520a010eb
+  Firebase: 1492bf04e1b73a7353b4fb2cf5a20bac9692f341
+  FirebaseAnalytics: ad41720e3e67fc63fbe3d2948d3e26932a8de311
+  FirebaseCore: cfc042628ef9f20debe09c0eb683135fcd404cb4
+  FirebaseInstanceID: 9fbf536668f4d3f0880e7438456dabd1376e294b
+  FirebaseStorage: 8110a1ed2034c8fbfd83890d2acc9cdbbd99afec
+  FirebaseUI: 5ebebe2c096c71f20abd1d43d0388958373bdaa0
+  FolioReaderKit: d902cb93f79e1d32f7d8bdb730fee6c1d05d1a6f
+  FontBlaster: 0f4a3e2f965968e2dfc3f7f5cec7214c3f3b2f07
+  GoogleToolboxForMac: 8e329f1b599f2512c6b10676d45736bcc2cbbeb0
+  GTMSessionFetcher: 5ad62e8200fa00ed011fe5e08d27fef72c5b1429
+  JSQWebViewController: 0461aa42612b221571556df61d9c09f080cb2eef
+  MenuItemKit: 9af69953dc983803ee85230e205fadbac0f26213
+  nanopb: 22bc080fa3955e2116b6ff3ee6c2cb3c15ab97cb
+  Realm: 3601ef091c8c499a31101d8563b991e75546cdce
+  RealmSwift: 8183818515471b01a99abdd2970f8e4fd52b6f4a
+  SDWebImage: 76a6348bdc74eb5a55dd08a091ef298e56b55e41
+  SJSegmentedScrollView: 13eb38fc0a28cc46a3ccc52b4e246df0e2227077
+  SSZipArchive: 04547dfa448be5ed7ecbaf7eaf8a6e9eb9b42997
+  SVProgressHUD: c404a55d78acbeb7ebb78b76d3faf986475a6994
+  ZFDragableModalTransition: 0d294eaaba6edfcb9839595de765f9ca06a4b524
+
+PODFILE CHECKSUM: cfdb07ff8e81b6758bbc24b677bb346196043aa0
+
+COCOAPODS: 1.2.1
